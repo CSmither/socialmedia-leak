@@ -135,6 +135,10 @@ var leakSocialMediaAccounts = function(callback) {
         domain: "https://vk.com",
         redirect: "/login?u=2&to=ZmF2aWNvbi5pY28-",
         name: "VK"
+    },  {
+        domain: "https://www.linkedin.com",
+        redirect: "/authwall?sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Ffavicon.ico",
+        name: "linkedin"
     }];
 
     platforms.forEach(function(network) {
@@ -158,9 +162,6 @@ var leakSocialMediaAccounts = function(callback) {
 // }, {
 //     url: "https://slack.com/signin?redir=%2Ffavicon.ico",
 //     name: "Slack"
-// }, {
-//     url: "https://tablet.www.linkedin.com/splash?redirect_url=https%3A%2F%2Fwww.linkedin.com%2Ffavicon.ico%3Fgid%3D54384%26trk%3Dfulpro_grplogo",
-//     name: "Linkedin"
 // }, {
 //      domain: "https://subscribe.washingtonpost.com/loginregistration/index.html#/register/group/default?action=login&destination=https:%2F%2Fwashingtonpost.com%2Ffavicon.ico",
 //      redirect: "/login/?previous=/favicon.ico",
